@@ -1,7 +1,8 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Jack Facts
+description: The trials and tribulations of a full stack application developer. 
 
-url: http://brianmaierjr.github.com/long-haul
+# url: https://jack-facts.com/
+url: http://localhost:4000/
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -20,9 +21,13 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: jackfacts
+   twitter: jack-facts
+   facebook: jacksondaw
+   email: jacksondaw@gmail.com
 
-google_analytics: "UA-58263416-1"
+sass:
+  sass_dir: scss
+  style: compressed
+
+# google_analytics: "UA-58263416-1"
